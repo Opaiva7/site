@@ -1,22 +1,94 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tennis Store</title>
+
+    <style>
+        header {
+            background-color: #002651;
+        }
+        main {
+            background-color: #04235080;
+            border-radius: 10px;
+        }
+        nav {
+            background-color: #002651f5;
+            padding: 10px;
+            width: 90%;
+            margin: 0 auto;
+            border-radius: 18px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav ul li {
+            margin-right: px;
+        }
+        nav ul li a {
+            color: rgb(194, 194, 194);
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav ul li a:hover {
+            background-color: rgba(98, 113, 248, 0.342);
+            border-radius: 10px;
+        }
+    </style>
+
 </head>
+
 <body>
-    <h1>Vinicius Paiva || 5163783</h1> 
-    <h3>Bem vindos a nossa página principal</h3>
-    <img src="imagens/logo_uniube.jpg" alt="Logo Uniube" width="100">
+    <header style="display: flex; align-items: center;">
+        <a href="index.html"><img src="imagens/new_uniube.png" alt="Logo Uniube" width="100"></a>
+        <h1 style="color: #ffffff">Vinicius Paiva || 5163783</h1>
+    </header><br>
     <nav>
-       <ul>
-        <li><a href="links.html">Links</a></li>
-        <li><a href="fotos.html">Fotos</a></li>
-        <li><a href="contato.html">Contatos</a></li>
-        
-       </ul>
+        <ul align="center">
+            <li><a href="fotos.html">Fotos</a></li>
+            <li><a href="links.html">Links</a></li>
+            <li><a href="size.html">Tamanhos</a></li>
+            <li><a href="contato.html">Contatos</a></li>
+        </ul>
     </nav>
+    <main>
+        <h2 align="center">Bem vindos a nossa loja</h2>
+        <p align="center">Aqui você encontrará diversos modelos de tênis </p>
+        <p align="center">Visando o seu estilo e conforto</p><br>
+    </main><br><br>
+    <table border="0" align="center" width="90%">
+        <tr>
+            <td align="center">
+                <a href="nike_model.html"><img src="imagens/nikeeee.jpg" alt="Modelo Nike" width="200"><br>
+                </a>
+                <p><b>Nike Tornado 747</b></p>
+                <p><b>R$ 495,88</b></p>
+            </td>
+            <td align="center">
+                <a href="adi_model.html"><img src="imagens/kralho.webp" alt="Tênis Adidas" width="200" height="180"><br></a>
+                <p><b>Adidas Raining 777</b></p>
+                <p><b>R$ 397,59</b></p>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <a href="fila_model.html"><img src="imagens/filaracer.jpg" alt="Tenis Fila" width="190" height="190"><br></a>
+                <p><b>Fila Racer 333</b></p>
+                <p><b> R$ 799,59</b></p>
+            </td>
+            <td align="center">
+                <a href="olympikus_model.html"><img src="imagens/olpkaaa.jpg" alt="Tenis Olympikus" width="180" height="180"><br></a>
+                <p><b>Olympikus tunder 444</b></p>
+                <p><b>R$ 693,77</b></p>
+        </tr>
+
+    </table>
+
 </body>
 </html>
